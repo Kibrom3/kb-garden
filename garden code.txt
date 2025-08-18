@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KB Garden Cleaning - London</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f9f4;
+      color: #2f4f2f;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #3a7d44;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    nav {
+      background: #2f4f2f;
+      padding: 0.5rem 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .services, .contact, .gallery {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 2px solid #3a7d44;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .contact p {
+      font-size: 1.1rem;
+    }
+    .gallery img {
+      width: 30%;
+      margin: 1%;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    }
+    footer {
+      text-align: center;
+      background: #3a7d44;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KB Garden Cleaning</h1>
+    <p>Professional Garden Cleaning Services in London</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Lawn Mowing & Grass Cutting</li>
+      <li>Hedge Trimming & Pruning</li>
+      <li>Garden Clearing & Waste Removal</li>
+      <li>Leaf Clearance & Seasonal Clean-ups</li>
+      <li>General Garden Tidying</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Photo Gallery</h2>
+    <!-- Replace # with your image URLs -->
+    <img src="#" alt="Garden Cleaning Example 1" />
+    <img src="#" alt="Garden Cleaning Example 2" />
+    <img src="#" alt="Garden Cleaning Example 3" />
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: <a href="tel:074422688">07442 2688</a></p>
+    <p>Location: London, UK</p>
+  </section>
+
+  <footer>
+    &copy; 2025 KB Garden Cleaning | All Rights Reserved
+  </footer>
+</body>
+</html>
